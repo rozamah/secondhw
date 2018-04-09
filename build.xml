@@ -1,5 +1,5 @@
 <project default="all" basedir="." xmlns:sonar="antlib:org.sonar.ant">
-<property name="src.java.dir" location="./src"/>
+<property name="src.java.dir" location="./src/secondhw"/>
 <property name="result.dir" location="./target"/>
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
   
@@ -10,7 +10,7 @@
 	<property name="sonar.projectName" value="Example of SonarQube Scanner for Ant Usage" />
 	<property name="sonar.projectVersion" value="1.0" />
 	<property name="sonar.language" value="java" />
-	<property name="sonar.sources" value="./src/"/>
+	<property name="sonar.sources" value="./src/secondhw"/>
 	<property name="sonar.binaries" value="./target" />
 	  	
 <target name="compile">
